@@ -26,7 +26,7 @@ const Navbar = () => {
 
       </div>
       <div className ={style}>
-        <button onClick={()=>setStyle('hide-sidebar')}>
+        <button className='side-button'onClick={()=>setStyle('hide-sidebar')}>
           x
         </button>
           <div className ='profile'>

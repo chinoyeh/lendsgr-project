@@ -20,6 +20,12 @@
     .hide-sidebar{
       display: none;
     }
+    .side-button{
+      border: none;
+      background: inherit;
+      color: white;
+      font-size: 1.3rem;
+    }
     
     .logo {
       background: white;

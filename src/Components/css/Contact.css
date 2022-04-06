@@ -59,4 +59,23 @@
     margin: auto;
     display: grid;
   }
+  .contact-details input {
+    height: 40px;
+    width: 40%;
+    box-shadow: 2px 2px 2px 2px rgb(213, 212, 212);
+    border-style: none;
+    outline: none;
+    padding: 10px;
+    border-color: rgb(213, 212, 212);
+    margin-bottom: 20px;
+  }
+  .contact-form input {
+    box-shadow: 2px 2px 2px 2px rgb(213, 212, 212);
+    padding: 10px;
+    border-color: rgb(213, 212, 212);
+    margin-bottom: 20px;
+    border-style: none;
+    outline: none;
+    height: 40px;
+  }
 }

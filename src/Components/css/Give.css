@@ -39,6 +39,7 @@
   color: rgb(4, 4, 20);
   margin: 40px auto;
   font-weight: 700;
+  font-size: 1rem;
 }
 @media screen and (max-width: 900px) {
   .give{
@@ -69,7 +70,7 @@
   .give-content h6 {
     color: rgba(11, 11, 69, 0.7);
     font-weight: 900;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .give-list {
     list-style-type: square;
@@ -78,6 +79,7 @@
     color: rgb(4, 4, 20);
     margin: 40px auto;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
+
 }

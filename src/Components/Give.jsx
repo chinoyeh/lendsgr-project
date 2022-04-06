@@ -18,8 +18,8 @@ const Give = () => {
        <h3>How to Give</h3>
        <h6>Kindly use any of our plat forms</h6>
        <ul className='give-list'>
-         <li>USSD CODE :</li>
-         <li>Bank Account:</li>
+         <li>USSD CODE : <span style={{color:'rgba(11, 11, 69)', fontWeight:'bolder'}}> *894*Amount*2034592902#</span></li>
+         <li>Bank Account: <span style={{color:'rgba(11, 11, 69)', fontWeight:'bolder'}}> 2034592902 (First Bank)</span></li>
          <li>Flutterwave</li>
          
           </ul>

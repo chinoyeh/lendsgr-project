@@ -1,17 +1,17 @@
 import React , {useState} from 'react'
 import Navbar from '../Utils/Navbar'
 import Footer from '../Utils/Footer'
-import Success from '../Utils/Success'
-import Failure from '../Utils/Failure'
+// import Success from '../Utils/Success'
+// import Failure from '../Utils/Failure'
 import './css/Contact.css'
 import { send } from 'emailjs-com';
 
 const Contact = () => {
-  const [show, setShow] =useState(false)
+  // const [show, setShow] =useState(false)
   const [loading, setLoading] = useState(false)
-  const [fail, setFail] =useState(false)
+  // const [fail, setFail] =useState(false)
   const [toSend, setToSend] = useState({
-    to_name: '',
+    to_from: '',
   
     subject :'',
     message: '',
@@ -48,7 +48,7 @@ const Contact = () => {
 
         alert('Message Sent')
         setToSend({
-          to_name: '',
+          to_from: '',
   
           subject :'',
           message: '',
@@ -79,7 +79,7 @@ const Contact = () => {
       <form className='contact-form' onSubmit={onSubmit}>
         <div className='contact-details'>
         
-        <input type='text'   name='to_name' placeholder='Enter your Name' value={toSend.to_name}
+        <input type='text'   name='from_name' placeholder='Enter your Name' value={toSend.from_name}
     onChange={handleChange} />
   
      
@@ -100,6 +100,7 @@ const Contact = () => {
       </form>
       {/* <Success onClose ={closeModal} show={show}/>
       <Failure onClose={closeFail} fail={fail}/> */}
+
       <Footer/>
       
      </div>

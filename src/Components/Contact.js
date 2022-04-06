@@ -48,7 +48,7 @@ const Contact = () => {
 
         alert('Message Sent')
         setToSend({
-          to_from: '',
+          from_name: '',
   
           subject :'',
           message: '',

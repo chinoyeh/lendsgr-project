@@ -42,7 +42,7 @@ const Navbar = () => {
           <Link to ='/About'>   <li> <span><i className="fa fa-info-circle"></i></span>About</li> </Link>
          <Link to ='/Give'>  <li> <span><i className="fa fa-money"></i></span>Give</li></Link>
          <Link to ='/Contact'>  <li> <span><i className="fa fa-address-book-o"></i></span>Contact</li> </Link>
-
+         <Link to ='/Programme'>  <li> <span><i className="fa fa-list"></i></span>Programme</li> </Link>
           </ul>
       </div>
       </React.Fragment>

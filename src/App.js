@@ -4,6 +4,7 @@ import Home from './Components/Home'
 import About from './Components/About'
 import Give from './Components/Give'
 import Contact from './Components/Contact'
+import Programme from './Components/Programme';
 import './App.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Route path ='/Give' element={<Give/>}/>
       <Route path ='/Contact' element={<Contact/>}/>
       <Route path ='/About' element={<About/>}/>
+      <Route path ='/Programme' element ={<Programme/>}/>
     </Routes>
 </Router>
   );

@@ -1,0 +1,175 @@
+@import "./App.scss";
+$nav-shadow : 3px 5px 20px rgba(0, 0, 0, 0.04);
+
+@font-face {
+    font-family: avenir;
+    // src: url("../fonts/Metropolis-Bold.otf");
+    // src: url("../fonts/Metropolis-Thin.otf");
+    src: url("../fonts/Metropolis-Medium.otf");
+
+
+}
+
+.navbar {
+    display: flex;
+    box-shadow: $nav-shadow;
+    background: $background ;
+    justify-content: space-between;
+    padding: 1em 0.5em;
+    font-size: 1.3em;
+    margin: 0 !important;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 30%;
+    margin: 0;
+}
+
+.search button {
+    border-radius: 0;
+    margin: 0;
+    position: relative;
+    top: -2px;
+    right: -30px;
+
+    padding: 0.5em;
+    height: 2.2em;
+    width: 15%;
+    border-radius: 0 10px 10px 0px;
+
+}
+
+.search img {
+    margin: 0;
+}
+
+.search input {
+    border: none;
+    height: 1em;
+    width: 70%;
+}
+
+.search {
+    border: $border;
+    height: 1.8em;
+    width: 30%;
+    padding: 0;
+    border-radius: 10px;
+
+
+}
+
+.nav-list li a {
+    color: $secondary;
+
+    font-size: 0.7em;
+}
+
+.nav-logo img {
+    width: 70%;
+
+}
+
+.nav-list li div img {
+    border-radius: 50%;
+    position: relative;
+    margin: 0;
+    top: -10px;
+}
+
+.nav-list li img {
+    margin-top: 20%;
+}
+
+.nav-list li p {
+    margin-top: 10%;
+    font-family: avenir;
+    font-size: 0.8em;
+}
+
+.nav-list li button {
+    background: none;
+    border: none;
+    margin-top: 10%;
+    height: 1em;
+}
+
+.hide-menu {
+    display: none;
+}
+
+.nav-mobile button {
+    display: none;
+}
+
+@media screen and (max-width:$breakpoint-phone) {
+    .nav-logo {
+        width: 20%;
+    }
+
+    .nav-logo img {
+        width: 100%;
+
+    }
+
+
+    .nav-list {
+        display: none;
+    }
+
+    .search {
+        width: 60%;
+    }
+
+    .nav-mobile {
+        width: 5%;
+    }
+
+    .nav-mobile button {
+        display: block;
+        background: none;
+        border: none;
+        margin-top: 10%;
+        height: 1em;
+    }
+
+    .show-menu {
+        display: grid;
+        list-style: none;
+        position: absolute;
+        padding-left: 0;
+
+
+        margin-left: -65px;
+        background: $background;
+        box-shadow: $box-shadow;
+        text-align: center;
+
+    }
+
+    .show-menu li {
+        box-shadow: $nav-shadow;
+        padding: 0.2em 0.7em;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+    }
+
+    .show-menu li a {
+        color: $secondary;
+        text-decoration: none;
+
+
+    }
+
+    .show-menu li img {
+        width: 15px;
+    }
+
+    .show-menu li p {
+        font-size: 0.7em;
+        margin: 0;
+        font-family: avenir;
+    }
+}

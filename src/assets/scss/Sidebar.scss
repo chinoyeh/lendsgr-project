@@ -1,0 +1,111 @@
+@import "./App.scss";
+
+
+$Sidebar-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+
+@font-face {
+    font-family: avenir;
+    // src: url("../fonts/Metropolis-Bold.otf");
+    src: url("../fonts/Metropolis-Thin.otf");
+    // src: url("../fonts/Metropolis-Medium.otf");
+
+
+}
+
+.sidebar {
+    box-shadow: $Sidebar-box-shadow;
+    background: $background;
+    width: 13em;
+    padding: 0 1.5em;
+    position: absolute;
+    top: 10;
+
+}
+
+.sidebar-content {
+    list-style: none;
+}
+
+.sidebar-content a {
+    color: $textcolor;
+    text-decoration: none;
+    font-size: 0.9em;
+    font-family: avenir;
+
+
+}
+
+.sidebar-content li {
+    margin: 4em 0.5em;
+}
+
+
+
+.sidebar-content .text {
+    margin: 1em 0.5em;
+}
+
+.sidebar-list {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.sidebar-list li {
+    margin: 1.3em auto;
+}
+
+
+
+.sidebar-list h3 {
+    margin: 0;
+    font-size: 0.7em;
+    color: $textcolor;
+    font-family: $fontfamily;
+}
+
+.sidebar-icon {
+    display: none;
+}
+
+@media screen and (max-width: $breakpoint-phone) {
+    .sidebar-icon {
+        display: block;
+        margin-top: 1em;
+        color: $textcolor;
+    }
+
+    .text {
+        display: none;
+
+    }
+
+    h3 {
+        display: none;
+    }
+
+    .sidebar {
+        width: 5%;
+    }
+
+    .sidebar-show {
+        box-shadow: $Sidebar-box-shadow;
+        background: $background;
+        width: 13em;
+        padding: 0 1.5em;
+        position: absolute;
+        top: 10;
+        left: 0;
+
+    }
+
+    .sidebar-show h3 {
+        display: block;
+    }
+
+    .sidebar-content li {
+        margin: 2em 0;
+    }
+
+
+}

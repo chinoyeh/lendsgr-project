@@ -14,12 +14,15 @@
 $primary : #39CDCC;
 $secondary : #213F7D;
 $textcolor : #545F7D;
+$background: #fff;
 $fontfamily :avenir-slim;
 $breakpoint-phone : 460px;
+$border : 2px solid rgba(84, 95, 125, 0.15);
 $box-shadow : 3px 5px 20px rgba(0, 0, 0, 0.04);
 
 body {
     min-height: 100vh;
+    margin: 0;
 }
 
 a {
@@ -29,8 +32,8 @@ a {
 
 
 input {
-    background: #FFFFFF;
-    border: 2px solid rgba(84, 95, 125, 0.15);
+    background: $background;
+    border: $border;
     border-radius: 5px;
     color: $textcolor;
 }
@@ -39,7 +42,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
-    -webkit-box-shadow: 0 0 0 30px white inset !important;
+    -webkit-box-shadow: 0 0 0 30px $background inset !important;
 }
 
 input:-webkit-autofill {
@@ -50,7 +53,7 @@ button {
     background: $primary;
     border-radius: 8px;
     border: 1px solid $primary;
-    color: white;
+    color: $background;
     cursor: pointer;
 }
 
@@ -73,7 +76,7 @@ button {
     text-align: center;
     padding: 20px;
     box-shadow: $box-shadow;
-    background: white;
+    background: $background;
     display: grid;
 }
 

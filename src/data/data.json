@@ -1,0 +1,372 @@
+[
+    {
+        "id": 1,
+        "organization": "Lendsqr",
+        "username": "chinoyeh",
+        "email": "ruthochons@gmail.com",
+        "phonenumber": "08138027727",
+        "date": "Apr 30, 2022 10:00AM",
+        "status": "Active",
+        "personal": {
+            "fullname": "Ochonogor Chinoye Ruth",
+            "bvn": "224455668",
+            "gender": "Female",
+            "marital": "Single",
+            "children": "None",
+            "resident": "Parent's Apartment"
+        },
+        "education": {
+            "level": "B.Sc",
+            "status": "Employed",
+            "sector": "Software",
+            "years": "3 years",
+            "officeMail": "Chinoyeh@lendsqr.com",
+            "income": "N500,000",
+            "loan": "N10,000"
+        },
+        "socials": {
+            "twitter": "chinoyeh",
+            "facebook": "Chinoye Ruth",
+            "instagram": "chinoyeh"
+        },
+        "guarantor": {
+            "fullName": "John Pablo",
+            "email": "johnp@gmail.com",
+            "phoneNumber": "0809678568",
+            "relationship": "brother"
+        }
+    },
+    {
+        "id": 2,
+        "organization": "Hashem",
+        "username": "Ejiro",
+        "email": "Ejas@gmail.com",
+        "phonenumber": "08165437890",
+        "date": "Mar 10, 2020 10:00AM",
+        "status": "Blacklisted",
+        "personal": {
+            "fullname": "Akpevwe Ejiro",
+            "bvn": "22445567",
+            "gender": "Female",
+            "marital": "Married",
+            "children": "Two",
+            "resident": "Studio Apartment"
+        },
+        "education": {
+            "level": "B.Sc",
+            "status": "Employed",
+            "sector": "Real Estate",
+            "years": "3 years",
+            "officeMail": "",
+            "income": "N100,000",
+            "loan": "N30,000"
+        },
+        "socials": {
+            "twitter": "ejas",
+            "facebook": "Akpevwe Ejis",
+            "instagram": ""
+        },
+        "guarantor": {
+            "fullName": "Akpevwe James",
+            "email": "james@gmail.com",
+            "phoneNumber": "0809678568",
+            "relationship": "husband"
+        }
+    },
+    {
+        "id": 3,
+        "organization": "Lendsqr",
+        "username": "Paul Bates",
+        "email": "PaulB@gmail.com",
+        "phonenumber": "08123675689",
+        "date": "Apr 30, 2022 10:00AM",
+        "status": "Active",
+        "personal": {
+            "fullname": "Akpevwe Ejiro",
+            "bvn": "22445567",
+            "gender": "Female",
+            "marital": "Married",
+            "children": "Two",
+            "resident": "Studio Apartment"
+        },
+        "education": {
+            "level": "B.Sc",
+            "status": "Employed",
+            "sector": "Real Estate",
+            "years": "3 years",
+            "officeMail": "",
+            "income": "N100,000",
+            "loan": "N30,000"
+        },
+        "socials": {
+            "twitter": "ejas",
+            "facebook": "Akpevwe Ejis",
+            "instagram": ""
+        },
+        "guarantor": {
+            "fullName": "Akpevwe James",
+            "email": "james@gmail.com",
+            "phoneNumber": "0809678568",
+            "relationship": "husband"
+        }
+    },
+    {
+        "id": 4,
+        "organization": "Sloovi",
+        "username": "Paramks",
+        "email": "Johndoe@gmail.com",
+        "phonenumber": "08055321567",
+        "date": "Apr 1, 2020 10:00AM",
+        "status": "Active",
+        "personal": {
+            "fullname": "Akpevwe Ejiro",
+            "bvn": "22445567",
+            "gender": "Female",
+            "marital": "Married",
+            "children": "Two",
+            "resident": "Studio Apartment"
+        },
+        "education": {
+            "level": "B.Sc",
+            "status": "Employed",
+            "sector": "Real Estate",
+            "years": "3 years",
+            "officeMail": "",
+            "income": "N100,000",
+            "loan": "N30,000"
+        },
+        "socials": {
+            "twitter": "ejas",
+            "facebook": "Akpevwe Ejis",
+            "instagram": ""
+        },
+        "guarantor": {
+            "fullName": "Akpevwe James",
+            "email": "james@gmail.com",
+            "phoneNumber": "0809678568",
+            "relationship": "husband"
+        }
+    },
+    {
+        "id": 5,
+        "organization": "Interswitch",
+        "username": "Ali",
+        "email": "Alimail@gmail.com",
+        "phonenumber": "09055346789",
+        "date": "Aug 30, 2022 10:00AM",
+        "status": "Pending",
+        "personal": {
+            "fullname": "Akpevwe Ejiro",
+            "bvn": "22445567",
+            "gender": "Female",
+            "marital": "Married",
+            "children": "Two",
+            "resident": "Studio Apartment"
+        },
+        "education": {
+            "level": "B.Sc",
+            "status": "Employed",
+            "sector": "Real Estate",
+            "years": "3 years",
+            "officeMail": "",
+            "income": "N100,000",
+            "loan": "N30,000"
+        },
+        "socials": {
+            "twitter": "ejas",
+            "facebook": "Akpevwe Ejis",
+            "instagram": ""
+        },
+        "guarantor": {
+            "fullName": "Akpevwe James",
+            "email": "james@gmail.com",
+            "phoneNumber": "0809678568",
+            "relationship": "husband"
+        }
+    },
+    {
+        "id": 6,
+        "organization": "ZST",
+        "username": "Tope",
+        "email": "Adetope@gmail.com",
+        "phonenumber": "08034789065",
+        "date": "Jun 27, 2022 09:00AM",
+        "status": "Inactive",
+        "personal": {
+            "fullname": "Akpevwe Ejiro",
+            "bvn": "22445567",
+            "gender": "Female",
+            "marital": "Married",
+            "children": "Two",
+            "resident": "Studio Apartment"
+        },
+        "education": {
+            "level": "B.Sc",
+            "status": "Employed",
+            "sector": "Real Estate",
+            "years": "3 years",
+            "officeMail": "",
+            "income": "N100,000",
+            "loan": "N30,000"
+        },
+        "socials": {
+            "twitter": "ejas",
+            "facebook": "Akpevwe Ejis",
+            "instagram": ""
+        },
+        "guarantor": {
+            "fullName": "Akpevwe James",
+            "email": "james@gmail.com",
+            "phoneNumber": "0809678568",
+            "relationship": "husband"
+        }
+    },
+    {
+        "id": 7,
+        "organization": "Glirt",
+        "username": "Joe",
+        "email": "Joess@gmail.com",
+        "phonenumber": "08078564578",
+        "date": "Aug 5, 2020 11:00AM",
+        "status": "Pending",
+        "personal": {
+            "fullname": "Akpevwe Ejiro",
+            "bvn": "22445567",
+            "gender": "Female",
+            "marital": "Married",
+            "children": "Two",
+            "resident": "Studio Apartment"
+        },
+        "education": {
+            "level": "B.Sc",
+            "status": "Employed",
+            "sector": "Real Estate",
+            "years": "3 years",
+            "officeMail": "",
+            "income": "N100,000",
+            "loan": "N30,000"
+        },
+        "socials": {
+            "twitter": "ejas",
+            "facebook": "Akpevwe Ejis",
+            "instagram": ""
+        },
+        "guarantor": {
+            "fullName": "Akpevwe James",
+            "email": "james@gmail.com",
+            "phoneNumber": "0809678568",
+            "relationship": "husband"
+        }
+    },
+    {
+        "id": 8,
+        "organization": "Gozade",
+        "username": "Kunle",
+        "email": "Kunle@gmail.com",
+        "phonenumber": "07065345678",
+        "date": "Sep 14, 2019 08:00AM",
+        "status": "Active",
+        "personal": {
+            "fullname": "Akpevwe Ejiro",
+            "bvn": "22445567",
+            "gender": "Female",
+            "marital": "Married",
+            "children": "Two",
+            "resident": "Studio Apartment"
+        },
+        "education": {
+            "level": "B.Sc",
+            "status": "Employed",
+            "sector": "Real Estate",
+            "years": "3 years",
+            "officeMail": "",
+            "income": "N100,000",
+            "loan": "N30,000"
+        },
+        "socials": {
+            "twitter": "ejas",
+            "facebook": "Akpevwe Ejis",
+            "instagram": ""
+        },
+        "guarantor": {
+            "fullName": "Akpevwe James",
+            "email": "james@gmail.com",
+            "phoneNumber": "0809678568",
+            "relationship": "husband"
+        }
+    },
+    {
+        "id": 9,
+        "organization": "Hob Systems",
+        "username": "Sam",
+        "email": "Samuel@gmail.com",
+        "phonenumber": "09056786890",
+        "date": "Feb 1, 2021 10:00AM",
+        "status": "Blacklisted",
+        "personal": {
+            "fullname": "Akpevwe Ejiro",
+            "bvn": "22445567",
+            "gender": "Female",
+            "marital": "Married",
+            "children": "Two",
+            "resident": "Studio Apartment"
+        },
+        "education": {
+            "level": "B.Sc",
+            "status": "Employed",
+            "sector": "Real Estate",
+            "years": "3 years",
+            "officeMail": "",
+            "income": "N100,000",
+            "loan": "N30,000"
+        },
+        "socials": {
+            "twitter": "ejas",
+            "facebook": "Akpevwe Ejis",
+            "instagram": ""
+        },
+        "guarantor": {
+            "fullName": "Akpevwe James",
+            "email": "james@gmail.com",
+            "phoneNumber": "0809678568",
+            "relationship": "husband"
+        }
+    },
+    {
+        "id": 10,
+        "organization": "Botosoft",
+        "username": "Damilola",
+        "email": "Damilola@gmail.com",
+        "phonenumber": "08088456789",
+        "date": "May 7, 2022 09:00AM",
+        "status": "Inactive",
+        "personal": {
+            "fullname": "Akpevwe Ejiro",
+            "bvn": "22445567",
+            "gender": "Female",
+            "marital": "Married",
+            "children": "Two",
+            "resident": "Studio Apartment"
+        },
+        "education": {
+            "level": "B.Sc",
+            "status": "Employed",
+            "sector": "Real Estate",
+            "years": "3 years",
+            "officeMail": "",
+            "income": "N100,000",
+            "loan": "N30,000"
+        },
+        "socials": {
+            "twitter": "ejas",
+            "facebook": "Akpevwe Ejis",
+            "instagram": ""
+        },
+        "guarantor": {
+            "fullName": "Akpevwe James",
+            "email": "james@gmail.com",
+            "phoneNumber": "0809678568",
+            "relationship": "husband"
+        }
+    }
+]

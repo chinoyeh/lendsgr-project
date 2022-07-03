@@ -3,14 +3,7 @@
 
 $Sidebar-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
 
-@font-face {
-    font-family: avenir;
-    // src: url("../fonts/Metropolis-Bold.otf");
-    src: url("../fonts/Metropolis-Thin.otf");
-    // src: url("../fonts/Metropolis-Medium.otf");
 
-
-}
 
 .sidebar {
     box-shadow: $Sidebar-box-shadow;
@@ -19,6 +12,8 @@ $Sidebar-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
     padding: 0 1.5em;
     position: absolute;
     top: 10;
+    left: 0;
+    display: block;
 
 }
 
@@ -30,7 +25,7 @@ $Sidebar-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
     color: $textcolor;
     text-decoration: none;
     font-size: 0.9em;
-    font-family: avenir;
+    font-family: $fontfamily;
 
 
 }
@@ -55,7 +50,9 @@ $Sidebar-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
     margin: 1.3em auto;
 }
 
-
+.sidebar-show {
+    display: none;
+}
 
 .sidebar-list h3 {
     margin: 0;
@@ -67,6 +64,8 @@ $Sidebar-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
 .sidebar-icon {
     display: none;
 }
+
+
 
 @media screen and (max-width: $breakpoint-phone) {
     .sidebar-icon {
@@ -89,6 +88,7 @@ $Sidebar-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
     }
 
     .sidebar-show {
+        display: block;
         box-shadow: $Sidebar-box-shadow;
         background: $background;
         width: 13em;
@@ -96,6 +96,7 @@ $Sidebar-box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
         position: absolute;
         top: 10;
         left: 0;
+        z-index: 1;
 
     }
 

@@ -14,7 +14,7 @@ const Login = () => {
     const [loading, setLoading] = useState(false)
     const [error, setError] = useState('')
     const [showPassword, setShowPassword] = useState(false)
-    const [showModal, setShowModal] = useState(false)
+    const [showModal, setShowModal] = useState(true)
     const tog_password_visibility = () => {
         setShowPassword(showPassword ? false : true)
     }
@@ -65,7 +65,7 @@ const Login = () => {
                             <span onClick={tog_password_visibility}>show</span>
                         </div>
 
-                        <a onClick={(() => setShowModal(!showModal))}>FORGOT PASSWORD?</a>
+                        <a onClick={(() => setShowModal(showModal))}>FORGOT PASSWORD?</a>
 
                         <button onClick={login}>LOG IN</button>
 
@@ -73,7 +73,7 @@ const Login = () => {
 
                 </div>
 
-                <ErrorPageModal show={showModal} />
+                <ErrorPageModal modalState={showModal} />
 
 
             </div>

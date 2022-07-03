@@ -17,6 +17,7 @@ $textcolor : #545F7D;
 $background: #fff;
 $fontfamily :avenir-slim;
 $breakpoint-phone : 460px;
+$breakpoint-tablet :900px;
 $border : 2px solid rgba(84, 95, 125, 0.15);
 $box-shadow : 3px 5px 20px rgba(0, 0, 0, 0.04);
 
@@ -180,5 +181,266 @@ button {
 
     50% {
         transform: scale(1.5);
+    }
+}
+
+.main {
+    position: absolute;
+    left: 25%;
+    top: 20%;
+
+}
+
+.col-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+}
+
+.box {
+    width: 9em;
+    height: 7em;
+    margin: 2em 2em 2em 0;
+    text-align: left;
+
+    padding: 1em 1.51em 0em 2em;
+    box-shadow: $box-shadow;
+    border-radius: 5px;
+}
+
+.main h2 {
+    color: $textcolor;
+    font-family: avenir-mid;
+    font-size: 1.2em;
+}
+
+.box h4 {
+    margin: 0.5em auto;
+    color: $secondary;
+    font-size: 0.6em;
+    font-family: avenir-mid;
+}
+
+.box img {
+    width: 2em;
+}
+
+.box h3 {
+    margin: 0.5em auto;
+    font-family: avenir-mid;
+    color: $secondary;
+}
+
+.table-element {
+    box-shadow: $box-shadow;
+    max-width: 91%;
+    font-family: $fontfamily;
+    padding: 1.5em 1.5em;
+    color: $textcolor;
+}
+
+.table-content th {
+    font-size: 0.6em;
+    font-family: avenir-mid;
+    width: 30em;
+
+    text-align: left;
+
+}
+
+.table-content span img {
+    width: 1em;
+}
+
+.table-content td {
+    font-size: 0.6em;
+    font-family: $fontfamily;
+    color: $textcolor;
+    height: 5em;
+    // border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table tr td {
+    border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+}
+
+table tr:first-child,
+table tr:last-child td {
+    border: none;
+}
+
+.table-content .col {
+    border-bottom: 1px solid rgba(33, 63, 125, 0.1);
+    width: 100%;
+}
+
+.table-content .col:last-child {
+    border: none;
+}
+
+.table-content .col {
+    color: $secondary;
+    font-size: 0.7em;
+    font-family: avenir;
+}
+
+.table-content .col ul {
+    list-style: none;
+    display: grid;
+    padding-left: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.table-content .col .list {
+    list-style: none;
+    display: grid;
+    padding-left: 0;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.table-content .col .list li {
+    width: 12em;
+}
+
+
+.table-content .col li {
+    padding: 2em 2em 2em 0;
+    height: 4em;
+    display: grid;
+    width: 15em;
+
+}
+
+.table-element .col-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+.table-element .col-4 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 2em;
+}
+
+.table-element div a {
+    width: 30%;
+    margin-right: 3em;
+    color: $textcolor;
+    font-family: $fontfamily;
+}
+
+
+
+.table-element .col-4 a :hover,
+.active {
+    color: $primary;
+    font-family: avenir;
+    border-bottom: 3px solid $primary;
+}
+
+table tr,
+th {
+    margin-bottom: 2em;
+}
+
+.details-menu {
+    background: #FFFFFF;
+    border: 1px solid rgba(84, 95, 125, 0.04);
+    box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    position: absolute;
+    width: 10em;
+    text-align: center;
+    left: 80%;
+
+    display: grid;
+    height: 10em;
+    z-index: 1;
+
+
+    list-style: none;
+}
+
+.details-menu a {
+    padding: 1.5em;
+    margin: 0;
+    width: 10em !important;
+
+    display: flex;
+    height: fit-content;
+    color: $textcolor;
+    font-size: 0.8em;
+
+}
+
+.details-menu span {
+    margin-right: 1.5em;
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+    .main {
+        top: 15%;
+        left: 35%;
+
+    }
+
+    .col-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
+    .table-element {
+
+        max-width: 80%;
+
+    }
+
+    .table-content {
+        overflow-x: scroll;
+    }
+
+    .table-content th {
+        width: 30em;
+    }
+}
+
+@media screen and (max-width: $breakpoint-phone) {
+    .main {
+        top: 15%;
+        left: 25%;
+
+    }
+
+    .box {
+        width: 7em;
+        height: 6em;
+
+        text-align: left;
+
+        padding: 1em 1.51em 0em 2em;
+        box-shadow: $box-shadow;
+        border-radius: 5px;
+    }
+
+    .col-box {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .table-element {
+
+        max-width: 100%;
+        overflow-x: scroll;
+
     }
 }

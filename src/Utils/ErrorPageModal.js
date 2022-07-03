@@ -1,21 +1,38 @@
-import React from 'react'
+import React, { Component } from 'react'
+import { Modal, ModalBody } from 'reactstrap'
 
-const ErrorPageModal = (props) => {
-
-    if (!props.show) {
-        return null
+class ErrorPageModal extends Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            modalOpen: true
+        }
+        this.tog_modalOpen = this.tog_modalOpen.bind(this)
     }
-    return (
-        <div className="pop-modal">
-            <cdiv className="pop-content">
+    tog_modalOpen() {
+        this.setState(prevState => ({
+            tog_modalOpen: !prevState.tog_modalOpen
+        }));
+    }
 
-                <p>  Sorry this Page is currently unavailable</p>
-                <button onClose={props.onClose}>close</button>
+    render() {
+        return (
+            <Modal
+                isOpen={this.props.modalOpen}
+                toggle={this.props.tog_modalOpen}
+                centered={true}
 
-            </cdiv>
+            >
+                <ModalBody>
 
-        </div>
-    )
+                    <p>  Sorry this Page is currently unavailable</p>
+                    <button onClick={this.props.tog_modalOpen}>close</button>
+
+                </ModalBody>
+
+            </Modal>
+        )
+    }
 }
 
 export default ErrorPageModal
